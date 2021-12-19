@@ -18,11 +18,11 @@
         <label for = "lastname" >LastName</label>
         <input name = "lastname" id = "lastname"  type= "text" max=20 />
         <label for="city">Select City</label>
-<select id = "city">
-        <option value ="Indore">Indore</option>
-        <option value="Bhopal">Bhopal</option>
-        <option value="Jharkhand">Jharkhand</option>
-        <option value = "Khandwa">Khandwa</option>
+<select id = "city" name="city">
+        <option name="city" value ="Indore">Indore</option>
+        <option name="city" value="Bhopal">Bhopal</option>
+        <option name="city" value="Jharkhand">Jharkhand</option>
+        <option name="city" value = "Khandwa">Khandwa</option>
 </select>
         <label >Gender</label>
         <div class="gender_radio">
